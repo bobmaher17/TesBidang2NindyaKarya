@@ -21,8 +21,8 @@ const routes = [
         component: AuthIndex
       },
       {
-        path: '/dashoard',
-        name: 'dashoard',
+        path: '/dashboard',
+        name: 'dashboard',
         component: DahsboardIndex
       },
 ]

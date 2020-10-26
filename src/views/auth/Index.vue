@@ -64,13 +64,13 @@
 
             login() {
                 if (this.user.email && this.user.password) {
-                    axios.get('http://localhost:8000/sanctum/csrf-cookie')
+                    axios.get('http://localhost:8081/sanctum/csrf-cookie')
                         .then(response => {
 
                             //debug cookie
                             console.log(response)
 
-                            axios.post('http://localhost:8000/api/login', {
+                            axios.post('http://localhost:8081/api/login', {
                                 email: this.user.email,
                                 password: this.user.password
                             }).then(res => {
