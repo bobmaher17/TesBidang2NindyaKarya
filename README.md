@@ -1,4 +1,4 @@
-# tes-bidang-ii-nindya-karya_
+# tes-bidang-ii-nindya-karya
 
 ## Project setup
 ```
